@@ -1,0 +1,56 @@
+html {
+    font-size: 10px;
+    background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+    background-size: cover;
+  }
+  body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  .key {
+    border: .12em solid rgb(0, 0, 0);
+    width: 7em;
+    height: 7em;
+    background: #0000007a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    flex-grow: 0;
+    margin: 1em;
+    transition:all 0.07s;
+  }
+
+  .sound {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #ffc600;
+  }
+
+  kbd {
+    display: block;
+    font-size: 4em;
+    color: white;
+  }
+
+  .keys { 
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .key-area {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
