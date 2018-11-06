@@ -7,7 +7,8 @@ let holes, scoreBoard, moles, lastHole, timeUp, score, isBonked;
 function main() {
   definingVariables();
   moles.forEach(mole => mole.addEventListener('click', bonk));
-  document.addEventListener('keyup', cheat);
+  // document.addEventListener('keyup', cheat);
+
 }
 
 
